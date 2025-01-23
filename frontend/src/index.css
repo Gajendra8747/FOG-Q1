@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    /* place-items: center;
+  min-width: 320px;
+  min-height: 100vh; */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; /* For Firefox */
+}
+
+
+/* Hide the default down arrow in most browsers */
+select {
+  -webkit-appearance: none; /* Chrome, Safari, Edge */
+  -moz-appearance: none;    /* Firefox */
+  appearance: none;         /* Standard */
+  background: none;         /* Remove background arrow */
+  padding-right: 10px;      /* Adjust padding as needed */
+}
+
+/* Optionally hide the dropdown border */
+select:focus {
+  outline: none;
+}

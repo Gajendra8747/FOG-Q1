@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "brandName": "Syltherine",
+        "productName": "Stylish Cafe Chair",
+        "category": "",
+        "price": 3500000,
+        "discountPrice": 2500000,
+        "image": "/public/syltherine.svg",
+        "latest": false
+    },
+    {
+        "id": 2,
+        "brandName": "Leviosa",
+        "productName": "Stylish Chair",
+        "category": "",
+        "price": 2500000,
+        "discountPrice": null,
+        "image": "/public/leviosa.svg",
+        "latest": false
+    },
+    {
+        "id": 3,
+        "brandName": "Lolito",
+        "productName": "Luxury Big Sofa",
+        "category": "",
+        "price": 1400000,
+        "discountPrice": 700000,
+        "image": "/public/lolito.svg",
+        "latest": false
+    },
+    {
+        "id": 4,
+        "brandName": "Respira",
+        "productName": "Outdoor Bar Table and Stool",
+        "category": "",
+        "price": 500000,
+        "discountPrice": null,
+        "image": "/public/respira.svg",
+        "latest": true
+    }
+]
